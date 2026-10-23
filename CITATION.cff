@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "If you use this model, please cite it as below."
+title: "Anopheles larva 3D model (4th instar)"
+type: dataset
+authors:
+  - family-names: Masuda
+    given-names: Gaku
+    affiliation: "Graduate School of Tropical Medicine and Global Health, Nagasaki University"
+    # orcid: "https://orcid.org/0000-0000-0000-0000"
+version: "1.0.0"
+date-released: "YYYY-MM-DD"
+# doi: "10.5281/zenodo.XXXXXXX"
+repository-code: "https://github.com/USERNAME/anopheles-larva-3d"
+license:
+  - MIT
+  - CC-BY-4.0
+keywords:
+  - Anopheles
+  - mosquito larva
+  - malaria
+  - 3D model
+  - 3D printing
+  - Blender
