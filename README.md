@@ -72,8 +72,11 @@ If you use this model, please cite it using the metadata in `CITATION.cff` (GitH
 
 ## Licence
 
-- Code (`scripts/`): MIT License, see `LICENSE`.
-- 3D models, drawings, and images (`models/`, `docs/`): CC BY 4.0, see `LICENSE-models.md`.
+Copyright (c) 2026 Gaku Masuda
+
+All files in this repository (3D models, drawings, images, and code) are licensed under the [Creative Commons Attribution 4.0 International License (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/). See `LICENSE`.
+
+You may share and adapt them for any purpose, including commercial use, provided you give appropriate credit, link to the licence, and indicate if changes were made.
 
 ## Acknowledgement
 
