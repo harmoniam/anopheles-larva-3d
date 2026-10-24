@@ -8,7 +8,7 @@ authors:
     affiliation: "Graduate School of Tropical Medicine and Global Health, Nagasaki University"
     # orcid: "https://orcid.org/0000-0000-0000-0000"
 version: "1.0.0"
-date-released: "YYYY-MM-DD"
+date-released: "2026-10-24"
 # doi: "10.5281/zenodo.XXXXXXX"
 repository-code: "https://github.com/harmoniam/anopheles-larva-3d"
 license: CC-BY-4.0
