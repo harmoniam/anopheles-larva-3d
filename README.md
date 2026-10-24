@@ -1,5 +1,7 @@
 # Anopheles larva 3D model (4th instar)
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23607176.svg)](https://doi.org/10.5281/zenodo.23607176)
+
 A parametric 3D model of a fourth-instar *Anopheles* mosquito larva for 3D printing, teaching, and image simulation in Blender.
 
 ![Oblique render](docs/images/render_oblique.png)
@@ -68,7 +70,11 @@ Proportions are approximate. For quantitative work, check dimensions against you
 
 ## Citation
 
-If you use this model, please cite it using the metadata in `CITATION.cff` (GitHub shows a "Cite this repository" button).
+If you use this model, please cite it:
+
+Masuda G. Anopheles larva 3D model (4th instar). Zenodo. https://doi.org/10.5281/zenodo.23607176
+
+This DOI always points to the latest version. To cite v1.0.0 specifically, use https://doi.org/10.5281/zenodo.23607177. The metadata is also in `CITATION.cff` (GitHub shows a "Cite this repository" button).
 
 ## Licence
 
