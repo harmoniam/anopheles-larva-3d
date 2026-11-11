@@ -20,6 +20,7 @@ Head capsule, compound eyes, antennae, lateral palatal (mouth) brushes, thorax, 
 |---|---|
 | `models/stl/anopheles_larva_print_x10.stl` | 10x scale (about 61 x 12 x 7 mm) for FDM printing. Appendages thickened 2.5x; palmate hairs removed. |
 | `models/stl/anopheles_larva_realsize_mm.stl` | Real size in millimetres, watertight. For simulation or high-resolution resin printing. |
+| `models/stl/anopheles_larva_flat_plate-primitive.stl` | Old version (v0.1). Flat silhouette plate, 3 mm thick. See [Old 2D silhouette model](#old-2d-silhouette-model). |
 | `models/anopheles_larva.obj` / `.mtl` | Mesh with per-part colours (no translucency). |
 | `models/anopheles_larva.blend` | Blender 5.0 file with translucent materials and two bend modifiers for posing. |
 | `scripts/anopheles_larva.py` | Parametric model script (Blender / bpy). |
@@ -59,6 +60,16 @@ The script needs the Noto Sans CJK JP font for the Japanese labels.
 ## Printing
 
 Print the 10x file lying flat, ventral side down. Suggested settings: 0.12–0.16 mm layer height, 15–20% infill, tree supports under the head and anal papillae. Translucent amber or natural PLA gives a realistic look. These settings have not yet been test-printed.
+
+## Old 2D silhouette model
+
+![Old 2D silhouette model](docs/images/render_flat_plate_primitive.png)
+
+`models/stl/anopheles_larva_flat_plate-primitive.stl` is an early version (v0.1) of the model. It is only the outline of an *Anopheles* larva seen from above, extruded to a uniform thickness, like a shape cut out with a cookie cutter. It has no body relief or appendage detail.
+
+The file is drawn large: about 72 mm long, 15 mm wide, and 3 mm thick. Scale it down in the slicer so that the printed larva is about 6 mm long, close to the real size of a fourth-instar larva. Keep some thickness by scaling the axes separately (turn off uniform scaling): about 8.4% for length and width, and 20% for height. This gives a plate about 6 mm long, 1.2 mm wide, and 0.6 mm thick (three layers at 0.2 mm).
+
+For most uses, the 3D model above is recommended. The silhouette plate is kept for reference and for simple tests.
 
 ## Possible uses
 
